@@ -1,0 +1,53 @@
+{
+  "accounting": {
+    "Pure_RRG_Q1": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 46356533.972709455,
+      "profit_cny": 36356533.972709455,
+      "fees_cny": 890361.3731766588,
+      "first_trade": "2019-01-02 00:00:00",
+      "prior_nav_replayed_exactly": true
+    },
+    "Pure_RRG_Q1_SMA10": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 28703495.474748876,
+      "profit_cny": 18703495.474748876,
+      "fees_cny": 522391.6574057562,
+      "first_trade": "2019-03-01 00:00:00",
+      "risk_off_positions_zero": true,
+      "shared_market_gate": true
+    },
+    "Industry_momentum_220_6": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 39583895.86639977,
+      "profit_cny": 29583895.866399772,
+      "fees_cny": 657512.6772809478,
+      "first_trade": "2019-01-02 00:00:00",
+      "prior_nav_replayed_exactly": true
+    },
+    "Industry_momentum_220_6_SMA10": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 23661481.561156336,
+      "profit_cny": 13661481.561156336,
+      "fees_cny": 376706.90557469905,
+      "first_trade": "2019-03-01 00:00:00",
+      "risk_off_positions_zero": true,
+      "shared_market_gate": true
+    }
+  },
+  "benchmark_matches_existing_rrg_benchmark": true,
+  "prefix_invariance_passed": true,
+  "complete_10_month_warmup": true,
+  "same_gate_for_both_strategies": true,
+  "zero_risky_holdings_when_filter_off": true,
+  "unfiltered_daily_navs_match_prior": true,
+  "retirements_checked": true
+}

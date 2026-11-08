@@ -1,0 +1,17 @@
+{
+  "中文研究报告_精简阅读版": {
+    "pages": 3,
+    "tables": 1,
+    "figures": 2,
+    "all_pages_visually_reviewed": true,
+    "pdf_sha256": "3dc048119daa1e718dbb78dfa9329232eb070ff1f08ebcf8105cefac0313513f"
+  },
+  "完整检验与数据附录": {
+    "pages": 16,
+    "tables": 18,
+    "figures": 5,
+    "all_pages_visually_reviewed": true,
+    "pdf_sha256": "6292c4e159e8bed625aaaa3687db3b9090e08e62431b8b3c029c16e2deb37c23"
+  },
+  "source_export_hashes_verified": 19
+}

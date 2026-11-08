@@ -1,0 +1,8 @@
+-r vendor/quantsplaybook_rrg/requirements.txt
+
+arch
+pyarrow==17.0.0
+requests
+statsmodels
+Pillow
+

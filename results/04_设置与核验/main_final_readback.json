@@ -1,0 +1,19 @@
+{
+  "four_strategy_accounting_passed": true,
+  "first_trade_all": "2019-01-02",
+  "full_period_days": 1756,
+  "complete_months": 87,
+  "industry_intervals_added": 0,
+  "industry_theme_etfs": 718,
+  "currently_delisted_eligible": 54,
+  "effective_delisted_candidates": 35,
+  "pool_first": 48,
+  "pool_last": 240,
+  "settlement_plans": 34,
+  "actual_estimated_settlements": 25,
+  "ann_date_and_factor_timing_passed": true,
+  "no_open_retired_positions_after_settlement": true,
+  "supplemental_raw_checksums_passed": 270,
+  "primary_HAC_pairs": 6,
+  "Holm_5pct_rejections": 0
+}

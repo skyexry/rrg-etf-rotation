@@ -1,0 +1,121 @@
+{
+  "period": [
+    "2018-12-28",
+    "2026-03-31"
+  ],
+  "params": [
+    220,
+    60,
+    20,
+    6
+  ],
+  "fees": 0.0003,
+  "slippage": 0,
+  "annualization": 252,
+  "initial_cash": 10000000.0,
+  "input_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "upstream_commit": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "primary_strategies": [
+    "Pure_RRG_Q1",
+    "Report_base",
+    "Industry_momentum_220_6",
+    "ETF_equal_weight"
+  ],
+  "old_data_retained": true,
+  "membership_intervals_added": 0,
+  "pool": "Tushare industry/theme index categories, historical L/D candidates, matched OF aliases, listing/delist dates and observed formation-day quotes.",
+  "user_approved_retirement_rule": "First monthly rebalance on/after delisting; cash settlement estimate at NAV already announced by formation; charge 3bp.",
+  "cash_settlement_warning": "Modeled NAV settlement date/value, not verified actual liquidation cash flows.",
+  "limitations": [
+    "Early membership coverage unchanged; full ETF holdings still incomplete.",
+    "Historical changes in product/index category and ETF tracked-index identity unavailable.",
+    "No claim of independent out-of-sample validation."
+  ],
+  "task": "Unified time, cost, grid and inference inputs for four report-period ETF portfolios",
+  "friction_grid_bp": [
+    3,
+    5,
+    10,
+    20
+  ],
+  "lookback_grid": [
+    180,
+    220,
+    260
+  ],
+  "max_industry_grid": [
+    4,
+    6,
+    8
+  ],
+  "parameter_definitions": {
+    "Q1": "RS-ratio lookback varies; RS-momentum60/MA20 fixed; at most N first-quadrant industries.",
+    "combined": "Diffusion and RS-ratio share lookback; top N diffusion then keep Q1/Q2; no refill.",
+    "momentum": "Industry cumulative return over lookback; top N.",
+    "equal_weight": "Fixed same ETF candidate pool; no analogous signal parameter."
+  },
+  "rolling_and_inference_months": "2019-01 through 2026-03; exclude the partial initial Dec2018; 87 complete months.",
+  "full_sample_trading_days": 1756,
+  "inference_plan": {
+    "HAC_primary_lags": 3,
+    "HAC_sensitivity_lags": [
+      1,
+      3,
+      6
+    ],
+    "bootstrap_blocks": [
+      3,
+      6
+    ],
+    "bootstrap_reps": 10000,
+    "seed": 20261107,
+    "primary_Holm_family": "All six unordered pairs of four strategies.",
+    "grid_Holm_family": "Within each of nine settings: all three active pairs and each active versus fixed equal-weight (54 comparisons)."
+  },
+  "cost_scope": "Illustrative total one-way friction charged as fees; no additional slippage or calibrated impact.",
+  "signal_reuse_verified_tables": {
+    "prior": {
+      "ashares_close": [
+        9579845,
+        88346295039099732415006163
+      ],
+      "ashares_float_mv": [
+        9579076,
+        88355612256460536529975782
+      ],
+      "zx_membership": [
+        8685161,
+        80090031642695424683476481
+      ],
+      "zx_industry_daily": [
+        67260,
+        620691706479314506672576
+      ]
+    },
+    "repaired": {
+      "ashares_close": [
+        9579845,
+        88346295039099732415006163
+      ],
+      "ashares_float_mv": [
+        9579076,
+        88355612256460536529975782
+      ],
+      "zx_membership": [
+        8685161,
+        80090031642695424683476481
+      ],
+      "zx_industry_daily": [
+        67260,
+        620691706479314506672576
+      ]
+    }
+  },
+  "retirement_approximation_plans": 34,
+  "source_environment": {
+    "python": "3.12.5",
+    "pandas": "2.3.3",
+    "numpy": "2.4.3"
+  },
+  "disclosure": "Same already-inspected historical sample; no new out-of-sample claim. All input coverage deviations inherited."
+}

@@ -1,0 +1,24 @@
+{
+  "accounting_cases_passed": 43,
+  "cost_cases": 16,
+  "grid_cases": 27,
+  "complete_months": 87,
+  "rolling_windows": 76,
+  "primary_comparisons": 6,
+  "cost_comparisons": 24,
+  "parameter_comparisons": 54,
+  "bootstrap_rows": 12,
+  "bootstrap_reps": 10000,
+  "Q1_matched_momentum_wins": 6,
+  "Q1_combined_wins": 7,
+  "primary_navs_match_previous": true,
+  "base_grid_navs_match_primary": true,
+  "all_retirements_checked": true,
+  "unchanged_signal_inputs_verified": true,
+  "figure_pairs_verified": 3,
+  "Holm_rejections": {
+    "primary_Holm_rejections": 0,
+    "cost_Holm_rejections": 0,
+    "grid_Holm_rejections": 0
+  }
+}

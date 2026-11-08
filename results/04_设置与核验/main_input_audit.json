@@ -1,0 +1,20 @@
+{
+  "old_input_sha256": "50dcf1506c6f14a7c03d909cd08a4c467975f75d9517e08f1075017b52911ca7",
+  "new_input_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "historical_membership_queries": {
+    "old_intervals": 6750,
+    "refreshed_intervals": 6750,
+    "additional_intervals": 0,
+    "industry_partitions": 30,
+    "stock_probes": 30,
+    "old_files_preserved": true,
+    "scope": "No backward extension of first observed membership date."
+  },
+  "classification": "Tushare index_basic industry/theme category; explicit CNI to SZ suffix alias only.",
+  "current_classification_labels": "Historical product/index label changes unavailable; current catalog labels retained.",
+  "identity_field_repairs": 248,
+  "candidate_etfs": 718,
+  "delisted_candidates": 54,
+  "candidate_price_codes_missing": [],
+  "old_files_preserved": true
+}

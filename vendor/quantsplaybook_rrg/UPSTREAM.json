@@ -1,0 +1,138 @@
+{
+  "repository": "https://github.com/hugo2046/QuantsPlaybook",
+  "commit": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "source_directory": "C-择时类/相对旋转图RRG行业轮动",
+  "purpose": "Unmodified upstream source and tests; local adapter is outside vendor.",
+  "files": [
+    {
+      "path": "src/__init__.py",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "src/backtest.py",
+      "git_blob_sha": "7a533265f726889c7380928010f482d4773f4c97",
+      "size": 38732
+    },
+    {
+      "path": "src/data_provider.py",
+      "git_blob_sha": "c7e99151933600e9a8ce5c1593994c0fef0249df",
+      "size": 12016
+    },
+    {
+      "path": "src/exposure.py",
+      "git_blob_sha": "daa57661396003d6a3236462123b0971f8093931",
+      "size": 16187
+    },
+    {
+      "path": "src/factor_algo.py",
+      "git_blob_sha": "27357d7c3cf5e08390da6e252e5c2710f8c30db2",
+      "size": 16248
+    },
+    {
+      "path": "src/generator.py",
+      "git_blob_sha": "dbcfe221d68d4549164c3937c2596b570102155e",
+      "size": 10018
+    },
+    {
+      "path": "src/optimizer.py",
+      "git_blob_sha": "b2db62020076d8ca31a30e5f18467ca4765d354e",
+      "size": 13351
+    },
+    {
+      "path": "src/plotting.py",
+      "git_blob_sha": "85fad0cea67cfa30ce36d460682405ca60163fdd",
+      "size": 53455
+    },
+    {
+      "path": "src/store.py",
+      "git_blob_sha": "2dcc5762d40fbc268f34bbdcb75182e07c7be551",
+      "size": 20205
+    },
+    {
+      "path": "src/strategy.py",
+      "git_blob_sha": "416a2f8a6e2e0e8249c5a37a83ef252203debe8e",
+      "size": 3823
+    },
+    {
+      "path": "src/utils.py",
+      "git_blob_sha": "70def5d04e827f238bc5819ef8e89773c39bf73d",
+      "size": 1380
+    },
+    {
+      "path": "tests/conftest.py",
+      "git_blob_sha": "546936d8ded830ba3c0250428f683faf9cf6a7fc",
+      "size": 2309
+    },
+    {
+      "path": "tests/test_backtest.py",
+      "git_blob_sha": "e7b66b6cd3a9a571e2a5a70fa55b23ebe92efefb",
+      "size": 38842
+    },
+    {
+      "path": "tests/test_data_provider_offline.py",
+      "git_blob_sha": "39a3ba00f9cf3ae8cf971fe1300926462f27fbe5",
+      "size": 3699
+    },
+    {
+      "path": "tests/test_db_path_anchor.py",
+      "git_blob_sha": "e686d3f0f61a24209a1228e75fc739b96ee29063",
+      "size": 1536
+    },
+    {
+      "path": "tests/test_exposure.py",
+      "git_blob_sha": "96e6257c29685da20cb00bb1611106cc40acff97",
+      "size": 24236
+    },
+    {
+      "path": "tests/test_factor_algo.py",
+      "git_blob_sha": "b2d0ac004c9a93f66913bae94a92ab5841d6e322",
+      "size": 19828
+    },
+    {
+      "path": "tests/test_generator.py",
+      "git_blob_sha": "c85004176b922a7034313e1018d9aed9abd3f11f",
+      "size": 5920
+    },
+    {
+      "path": "tests/test_optimizer.py",
+      "git_blob_sha": "d1481c64d01d837957ce33dfeda14b875c605c1c",
+      "size": 15636
+    },
+    {
+      "path": "tests/test_plotting.py",
+      "git_blob_sha": "4ab7011983cbacf6905cc83507d2242196373d15",
+      "size": 22880
+    },
+    {
+      "path": "tests/test_plotting_etf_holding.py",
+      "git_blob_sha": "bd232d3890efd3c6a5f4fd7a1bf6024794cefa21",
+      "size": 9573
+    },
+    {
+      "path": "tests/test_plotting_industry_holding.py",
+      "git_blob_sha": "e336fe988cb7c0062c34f3475cce1addf6b36623",
+      "size": 4757
+    },
+    {
+      "path": "tests/test_store_coexist.py",
+      "git_blob_sha": "2d92ce654882283bc342fdd9a40c522f569550ae",
+      "size": 1728
+    },
+    {
+      "path": "tests/test_store_offline.py",
+      "git_blob_sha": "db76ecb775a431ad0bb6dbbd7c1c970b817ecb6b",
+      "size": 1381
+    },
+    {
+      "path": "tests/test_store_readonly.py",
+      "git_blob_sha": "9868c788af0776ac349e72666902ce5fd051dbf4",
+      "size": 2529
+    },
+    {
+      "path": "tests/test_strategy.py",
+      "git_blob_sha": "c85354130212bd19d68fe9d730d9e03490151e96",
+      "size": 3974
+    }
+  ]
+}

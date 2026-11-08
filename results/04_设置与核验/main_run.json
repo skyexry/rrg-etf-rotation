@@ -1,0 +1,34 @@
+{
+  "period": [
+    "2018-12-28",
+    "2026-03-31"
+  ],
+  "params": [
+    220,
+    60,
+    20,
+    6
+  ],
+  "fees": 0.0003,
+  "slippage": 0,
+  "annualization": 252,
+  "initial_cash": 10000000.0,
+  "input_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "upstream_commit": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "primary_strategies": [
+    "Pure_RRG_Q1",
+    "Report_base",
+    "Industry_momentum_220_6",
+    "ETF_equal_weight"
+  ],
+  "old_data_retained": true,
+  "membership_intervals_added": 0,
+  "pool": "Tushare industry/theme index categories, historical L/D candidates, matched OF aliases, listing/delist dates and observed formation-day quotes.",
+  "user_approved_retirement_rule": "First monthly rebalance on/after delisting; cash settlement estimate at NAV already announced by formation; charge 3bp.",
+  "cash_settlement_warning": "Modeled NAV settlement date/value, not verified actual liquidation cash flows.",
+  "limitations": [
+    "Early membership coverage unchanged; full ETF holdings still incomplete.",
+    "Historical changes in product/index category and ETF tracked-index identity unavailable.",
+    "No claim of independent out-of-sample validation."
+  ]
+}

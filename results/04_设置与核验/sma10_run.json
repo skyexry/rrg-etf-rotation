@@ -1,0 +1,50 @@
+{
+  "period": [
+    "2018-12-28",
+    "2026-03-31"
+  ],
+  "params": [
+    220,
+    60,
+    20,
+    6
+  ],
+  "fees": 0.0003,
+  "slippage": 0,
+  "annualization": 252,
+  "initial_cash": 10000000.0,
+  "input_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "upstream_commit": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "primary_strategies": [
+    "Pure_RRG_Q1",
+    "Pure_RRG_Q1_SMA10",
+    "Industry_momentum_220_6",
+    "Industry_momentum_220_6_SMA10"
+  ],
+  "old_data_retained": true,
+  "membership_intervals_added": 0,
+  "pool": "Tushare industry/theme index categories, historical L/D candidates, matched OF aliases, listing/delist dates and observed formation-day quotes.",
+  "user_approved_retirement_rule": "First monthly rebalance on/after delisting; cash settlement estimate at NAV already announced by formation; charge 3bp.",
+  "cash_settlement_warning": "Modeled NAV settlement date/value, not verified actual liquidation cash flows.",
+  "limitations": [
+    "Early membership coverage unchanged; full ETF holdings still incomplete.",
+    "Historical changes in product/index category and ETF tracked-index identity unavailable.",
+    "No claim of independent out-of-sample validation."
+  ],
+  "task": "Shared industry-benchmark monthly SMA10 filter for Q1 and momentum.",
+  "benchmark": "Upstream daily-rebalanced equal-weight returns of 28 CITIC level-1 industries; exclude comprehensive/comprehensive financial.",
+  "filter": "At actual last trading close each month: benchmark > arithmetic mean of latest 10 month-end values, including current month. Else all ETF target weights zero.",
+  "timing": "Signal at month-end close, orders next trading open; unchanged monthly schedule.",
+  "cash_return": 0.0,
+  "allow_borrowing": false,
+  "filter_window_months": 10,
+  "execution_months": 87,
+  "risk_on_formation_months": 60,
+  "effective_risk_on_days": 1221,
+  "effective_trading_days": 1756,
+  "methodology": "Faber-style absolute trend overlay adapted to the preexisting industry benchmark; not a new ETF selection rule.",
+  "retirement_plans": 34,
+  "source_database_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "vendor_unchanged": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "previous_results_preserved": true
+}

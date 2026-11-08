@@ -1,0 +1,26 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=22mm,headheight=14pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\usepackage{amsmath,amssymb,float,graphicx,booktabs,longtable,array,caption,fancyhdr,xcolor,enumitem}
+\usepackage[unicode,colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black]{hyperref}
+\definecolor{navy}{HTML}{171717}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\color{navy}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\linespread{1.04}
+\setlength{\emergencystretch}{1.5em}
+\captionsetup{font=small,labelfont=bf,skip=5pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.13}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\sffamily RRG Sector Rotation | Empirical Analysis}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlist[itemize]{leftmargin=*,nosep,topsep=3pt}
+\newcommand{\pp}{\,\text{pp}}

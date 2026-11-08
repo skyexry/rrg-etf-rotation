@@ -1,0 +1,13 @@
+{
+  "four_portfolios_verified": true,
+  "original_daily_NAVs_replayed": 2,
+  "cash_zero_when_gate_off": true,
+  "shared_monthly_gate": true,
+  "prefix_invariance": true,
+  "fees_each_side_bp": 3,
+  "daily_observations": 1756,
+  "execution_months": 87,
+  "risk_on_months": 60,
+  "risk_on_days": 1221,
+  "figures_verified": true
+}

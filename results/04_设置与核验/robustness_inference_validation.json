@@ -1,0 +1,22 @@
+{
+  "complete_months": 87,
+  "primary_comparisons": 6,
+  "HAC_sensitivity_rows": 18,
+  "bootstrap_rows": 12,
+  "bootstrap_reps": 10000,
+  "parameter_family_tests": 54,
+  "cost_sensitivity_tests": 24,
+  "primary_Holm_rejections": 0,
+  "cost_Holm_rejections": 0,
+  "grid_Holm_rejections": 0,
+  "mean_gaps_reconcile": true,
+  "inference_environment": {
+    "python": "3.12.5",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "statsmodels": "0.14.4",
+    "arch": "7.1.0"
+  },
+  "statistical_scope": "Mean non-overlapping monthly net-return differences. HAC(3), small-sample correction and t approximation. Bootstrap conditional on observed sample; not independent validation. Adjusted regressions are benchmark intercepts, not FF alpha.",
+  "multiplicity_scope": "Families cover the current six primary pairs and 54 grid pairs separately, not all prior research choices."
+}

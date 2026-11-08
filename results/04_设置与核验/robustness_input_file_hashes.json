@@ -1,0 +1,146 @@
+[
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/run.json",
+    "sha256": "6c6b16796b85adddc4d533ca2808fd719de62c6ac62a25d23c5b1f1eb4755713"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/candidate_etf_panel.parquet",
+    "sha256": "6302e39446b482851556c46ac0791e674914925c1d67171ca64ad5a575e52826"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/visible_etf_industry_weights.parquet",
+    "sha256": "73b9ec0a5e2274910f5b465c64b2adfc215146790accf8cb1cd2b82455e758de"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/etf_metadata_audit.parquet",
+    "sha256": "83882c6a956825427e9315daa0b2c142d8e732b4f03cb2ca776fd9df0ed30208"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/approved_nav_settlement_plan.csv",
+    "sha256": "33ece2ae92f2b69dfd4738e26d4117e0886033a80702e8da22bd177c03cc7c8b"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/Pure_RRG_Q1_weights.parquet",
+    "sha256": "e34fa519b2c02fc1c26475a069dc6cf6fd50aec8c8e2ddb4e37693b8e28f238c"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/Report_base_weights.parquet",
+    "sha256": "cebdf66bc4e83fdb1e45e36fab63fd3ff010b502c50e42f03b7e53be4381a91f"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/Industry_momentum_220_6_weights.parquet",
+    "sha256": "20df81e3aabf3b659dfb7d204098f03d6e92e10b4b29217da2934eb296630b62"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_tushare_repaired_20261107/ETF_equal_weight_weights.parquet",
+    "sha256": "cedf83127bde5a0b8b53000b9e71af9794521c5b5653687e623a0998bf408cda"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_180_4_signals.parquet",
+    "sha256": "484a99afc90d1f76f0619f2b6372af3b425c778bec495d439c44687449580170"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_180_8_signals.parquet",
+    "sha256": "470e01ad411608612f797daa23b808cc7cb39c5ea7d55866aecbe05a70eca16d"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_220_6_signals.parquet",
+    "sha256": "fdee90f59a80964ed30d170bb2258b88c16f61cbd687bff170e2b1337cff6df9"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_220_4_signals.parquet",
+    "sha256": "16492be31bf15367b9f93fafebc8d3499ee6e022020374be88daf9fd92550169"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_260_4_signals.parquet",
+    "sha256": "4dd7fd594e4696ee91227e99860d7525a24206fb53e550e37440e5d05918d543"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_260_8_signals.parquet",
+    "sha256": "38a691679a41e446fcb8adca01d1b9a796d0754b334b430f792693678c1f232f"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_220_8_signals.parquet",
+    "sha256": "ca3adf90f8c0d0ce463809d49958c106c08b436d7292480a1177f7d49e6fa849"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_220_6_signals.parquet",
+    "sha256": "f2e6e9d748ab02d7388663acdd904330aa8e08b189f63e830bb2181aa9f029c4"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_260_6_signals.parquet",
+    "sha256": "0c120d1b1c8f8eaf851c524dabb9d3bd270ca37c78923ab8d5fd61cd806f75cd"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_260_4_signals.parquet",
+    "sha256": "0ffee41eb4331a9653e30861479ba9d9e7db36c2333329bafa32fbe2b940ad4c"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_220_8_signals.parquet",
+    "sha256": "8370e1f842a1fec1efa09b70e621b29202195409544c30c5816561dfdeb6733d"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_180_4_signals.parquet",
+    "sha256": "2f0486a3d3035ea7a15b6e0a04017275bfc418a6380e76ba394a1525cd192710"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_180_6_signals.parquet",
+    "sha256": "e7a03b3519e8d87ed41df040b7666c2cb5fb01f207124ca6727d31f521c77e72"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_220_4_signals.parquet",
+    "sha256": "2cd0972efe63a745cc4bc3a0611f6c6bbee1a62e5f0531a6b232b45524e6c159"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_260_4_signals.parquet",
+    "sha256": "b96d6c69e63808aea43972aff41e0fa2315642f9e5bbf81b1a8d9edaf8a81308"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_260_6_signals.parquet",
+    "sha256": "058d46994efc173710549964e63c1e8d5c5cd4a77082b090d2562280c8f5308c"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_260_8_signals.parquet",
+    "sha256": "d8b667eb439912c007018df558559c3a66dba2708a2595e23e26d65b005f46cb"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_220_8_signals.parquet",
+    "sha256": "6b9cb8ad4d1c543ce97a3e5f00d0aab7148c7c2558e60f6760dd1834dd74cf09"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_180_6_signals.parquet",
+    "sha256": "7f3f2c59b95e7666f809126984cbec643d318f9d53a2398bf459470c135c811f"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_180_4_signals.parquet",
+    "sha256": "f8f673c26633d94bb9ab479b95b321ccd9f5637d6af6c2f9caa7aa1601f0e9bf"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_180_8_signals.parquet",
+    "sha256": "74d566711c5c1f1e769ef7328c03d347ba216f7ff971fbeecab1a1b594c5b645"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_180_6_signals.parquet",
+    "sha256": "3a2e25f2fcf3aa1e1bbb530644673968e231e58e23a25af95d8887777bbeeaa9"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_180_8_signals.parquet",
+    "sha256": "294db3015d09bbc4e6d64257ec9cb1d760e40b156787ba61642afe30f4a9b684"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_220_4_signals.parquet",
+    "sha256": "0bf0e256709f2edee549384bbfdd9f8aca6679bf89f7f004d676e47cc7993e1b"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Industry_momentum_220_6_220_6_signals.parquet",
+    "sha256": "fd0b7fcc21bda9bdb4b3d61c2428956236e9fae1bd1c736bb92d196f409360ae"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Pure_RRG_Q1_260_6_signals.parquet",
+    "sha256": "279dd81f4de50265c8ad0d34f4da24b50a5292f3b3287884892df90bf667434a"
+  },
+  {
+    "path": "<PROJECT_ROOT>/results/rrg_report_settings_20261107/diffusion_etf/four_strategy_robustness/Report_base_260_8_signals.parquet",
+    "sha256": "ab81b815de7c9a5e6de2158c0d35a606d94d6aa7ba46f5d0287a0c837a7baef3"
+  }
+]

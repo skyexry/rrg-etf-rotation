@@ -1,0 +1,52 @@
+{
+  "accounting": {
+    "Pure_RRG_Q1": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 46356533.972709455,
+      "profit_cny": 36356533.972709455,
+      "fees_cny": 890361.3731766588,
+      "first_trade": "2019-01-02 00:00:00"
+    },
+    "Report_base": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 33510883.30078242,
+      "profit_cny": 23510883.30078242,
+      "fees_cny": 685084.4412917208,
+      "first_trade": "2019-01-02 00:00:00"
+    },
+    "Industry_momentum_220_6": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 39583895.86639977,
+      "profit_cny": 29583895.866399772,
+      "fees_cny": 657512.6772809478,
+      "first_trade": "2019-01-02 00:00:00"
+    },
+    "ETF_equal_weight": {
+      "accounting_passed": true,
+      "fees_passed": true,
+      "next_open_dates_passed": true,
+      "ending_value_cny": 19572504.63681064,
+      "profit_cny": 9572504.636810642,
+      "fees_cny": 56649.3309857327,
+      "first_trade": "2019-01-02 00:00:00"
+    }
+  },
+  "retirement_positions_needing_review": 0,
+  "input_sha256": "e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524",
+  "upstream_commit": "3f83a77f4c7996ed8185b8979a42c4372c1d811f",
+  "settings": {
+    "fees": 0.0003,
+    "slippage": 0,
+    "annualization": 252,
+    "execution": "next-open, sell-first, zero exits"
+  },
+  "approved_NAV_settlement_estimates": 34,
+  "retired_positions_zero_after_settlement": true,
+  "status": "approved_nav_approximation_complete"
+}

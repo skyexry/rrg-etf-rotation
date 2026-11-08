@@ -1,0 +1,23 @@
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.duckdb
+*.duckdb.wal
+*.parquet
+data/raw/
+data/rrg/
+experiments_frozen/
+
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+
