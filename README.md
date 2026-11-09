@@ -17,7 +17,7 @@ The study also examines performance over time, trading-cost sensitivity, paramet
 
 The RRG map separates relative trend strength from its momentum. The pure RRG strategy selects only from the leading quadrant; the composite strategy also admits improving sectors after its breadth screen.
 
-![Monthly research and execution workflow](assets/monthly-workflow.svg)
+![Monthly research and execution workflow](assets/monthly-workflow.svg?v=2)
 
 All four strategies use the same month-end information set and next-open execution convention. Q, C, and M first select sectors and then map them into implementable ETF portfolios; E directly equal-weights the eligible ETF universe.
 
