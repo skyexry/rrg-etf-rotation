@@ -61,8 +61,8 @@
   <text class="t step" x="551" y="540" text-anchor="middle">2 · Map selected sectors into ETF portfolios</text>
   <text class="t muted body" x="551" y="571" text-anchor="middle">Use disclosed holdings to estimate sector exposure and solve portfolio weights</text>
 
-  <path class="line" d="M551 604 V655 H600" marker-end="url(#arrow)"/>
-  <path class="line" d="M1052 444 V655 H914" marker-end="url(#arrow)"/>
+  <path class="line" d="M551 604 V630 H505 V655" marker-end="url(#arrow)"/>
+  <path class="line" d="M1052 444 V630 H695 V655" marker-end="url(#arrow)"/>
 
   <rect x="236" y="655" width="728" height="96" rx="18" fill="#edf3f9" stroke="#d7e1ea"/>
   <text class="t step" x="600" y="694" text-anchor="middle">3 · Rebalance at the next trading-day open</text>
