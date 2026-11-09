@@ -9,7 +9,7 @@ This repository reconstructs the sector and ETF rotation framework from Western 
 - Industry-momentum ETF strategy
 - Equal-weight ETF benchmark
 
-The study also examines performance over time, trading-cost sensitivity, parameter robustness, statistical uncertainty, and a fixed ten-month moving-average risk-control overlay. The repository includes a five-page English report, a separate technical appendix, full Chinese reports, a client-facing explanation, and auditable result files.
+The study also examines performance over time, trading-cost sensitivity, parameter robustness, statistical uncertainty, and a fixed ten-month moving-average risk-control overlay. The repository includes a five-page Journal of Finance-style English report, a separate technical appendix, full Chinese reports, a client-facing explanation, and auditable result files.
 
 ## How the framework works
 
@@ -66,7 +66,7 @@ Start with [`results/EXPERIMENT_SUMMARY.md`](results/EXPERIMENT_SUMMARY.md). Det
 
 ## Reports
 
-- [English five-page report](reports/english/RRG_Report.pdf)
+- [Journal of Finance-style English report](reports/english/RRG_Report.pdf)
 - [English technical appendix](reports/english/RRG_Technical_Appendix.pdf)
 - [Chinese concise report](reports/chinese/中文研究报告_精简阅读版.pdf)
 - [Chinese full validation appendix](reports/chinese/完整检验与数据附录.pdf)
