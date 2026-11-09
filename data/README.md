@@ -1,21 +1,21 @@
-# 数据说明
+# Data requirements
 
-完整回测使用用户授权的 Tushare 兼容接口数据及本地 DuckDB 快照。原始接口响应、访问凭证和大型数据库未纳入本仓库。
+The full backtest uses user-authorized data from a Tushare-compatible interface and a local DuckDB snapshot. Raw API responses, access credentials, and the large input database are stored outside this repository.
 
-主要输入包括：
+The main inputs are:
 
-- 行业指数行情与历史行业成分
-- A 股行情、复权因子和自由流通市值
-- ETF 基本信息、行情、净值及定期报告持仓
-- 已退市 ETF 的历史行情或清盘净值资料
+- industry-index prices and historical industry membership;
+- A-share prices, adjustment factors, and free-float market capitalization;
+- ETF metadata, prices, NAVs, and periodic-report holdings;
+- historical prices or liquidation NAV records for delisted ETFs.
 
-脚本默认从仓库根目录的 `data/` 和 `results/` 读取或生成文件。访问接口时，通过环境变量 `TUSHARE_TOKEN` 或 `TUSHARE_TOKEN_FILE` 提供凭证。
+Scripts read from and write to `data/` and `results/` relative to the repository root. Interface credentials are supplied through `TUSHARE_TOKEN` or `TUSHARE_TOKEN_FILE`.
 
-最终结果所使用的输入数据库 SHA256 为：
+The input database used for the final results has SHA256:
 
 ```text
 e71a0043112ba173307eac16acbecc1f72c232bb1780ddac455d32c02a407524
 ```
 
-该哈希用于识别研究快照，不代表数据库可公开分发。更完整的数据覆盖说明见 [`../results/数据与策略口径.txt`](../results/数据与策略口径.txt)。
+The hash identifies the research snapshot and does not grant redistribution rights. See [`../results/DATA_AND_METHODS.md`](../results/DATA_AND_METHODS.md) for coverage and implementation details.
 

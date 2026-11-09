@@ -1,18 +1,15 @@
-# RRG 实验与结论包
+# RRG experiment and evidence package
 
-先读 `先看这个_实验结论.txt`。这是实验材料索引，保留结果与解释依据。
+Start with [`EXPERIMENT_SUMMARY.md`](EXPERIMENT_SUMMARY.md). It links each research question to the relevant evidence and interpretation.
 
-| 目录 | 内容 |
+| Directory | Contents |
 | --- | --- |
-| 01_结果表 | 19份完整精度CSV：主结果、时间、成本、参数、统计检验、均线对照 |
-| 02_图表 | 7组图：PNG可直接插入，SVG便于编辑与导出 |
-| 03_逐日与逐月记录 | 主净值、各成本/参数净值、参数月收益、候选池记录及估结算计划 |
-| 04_设置与核验 | 实际运行设置、输入哈希、回测核验和统计核验 |
+| `01_results_tables` | Main performance, time stability, costs, parameters, statistical tests, and SMA comparison |
+| `02_figures` | English PNG and PDF figures for direct review and reuse |
+| `03_return_records` | Main NAV, cost/parameter scenario NAVs, monthly returns, candidate history, and settlement plan |
+| `04_validation` | Run settings, input hashes, accounting checks, and statistical validation records |
 
-`数据与策略口径.txt` 集中说明统一设置、策略定义、来源与研究近似。
+[`DATA_AND_METHODS.md`](DATA_AND_METHODS.md) defines the shared settings, strategy identifiers, data sources, and research approximations.
 
-表中收益通常为小数：0.2462代表24.62%。金额字段 `_cny` 单位为元，结论页折算万元。统计表单位以字段名为准。策略代码与中文名称的映射见口径文件。
+Return fields are generally stored as decimals, so `0.2462` represents `24.62%`. Fields ending in `_cny` are denominated in Chinese yuan. Historical simulated profit includes unrealized gains and losses in the final portfolio.
 
-净利润包括期末持仓浮动盈亏；历史回测金额由模拟本金计算。
-
-本包使用新ETF池的最终结果。`04_设置与核验/` 保留运行设置、输入哈希、回测核验与统计核验记录。
