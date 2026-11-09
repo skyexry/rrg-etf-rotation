@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">月度研究与执行流程</title>
+  <desc id="desc">展示月末信息、四种组合策略、行业到 ETF 的映射、下一交易日开盘执行和月度评价的流程图。</desc>
+  <defs>
+    <style>
+      .t { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #17324d; }
+      .muted { fill: #60758a; }
+      .title { font-size: 34px; font-weight: 720; letter-spacing: -.4px; }
+      .step { font-size: 23px; font-weight: 680; }
+      .cardtitle { font-size: 21px; font-weight: 680; }
+      .body { font-size: 17px; }
+      .line { fill: none; stroke: #294967; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#294967"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="900" fill="#fbfcfe"/>
+  <text class="t title" x="70" y="58">月度研究与执行流程</text>
+  <text class="t muted body" x="70" y="88">四种策略共享同一信息集、交易规则与成本模型。</text>
+
+  <rect x="236" y="118" width="728" height="92" rx="18" fill="#edf3f9" stroke="#d7e1ea"/>
+  <text class="t step" x="600" y="154" text-anchor="middle">1 · 构建月末信息集</text>
+  <text class="t muted body" x="600" y="184" text-anchor="middle">行业价格 · 个股扩散指标 · 可交易 ETF · 已披露持仓</text>
+
+  <path class="line" d="M600 210 V242 M148 242 H1052 M148 242 V270 M449 242 V270 M751 242 V270 M1052 242 V270" marker-end="url(#arrow)"/>
+
+  <g class="t" text-anchor="middle">
+    <rect x="54" y="270" width="188" height="174" rx="16" fill="#eaf7f1" stroke="#cfe5da"/>
+    <text class="cardtitle" x="148" y="310">Q · 纯 RRG</text>
+    <text class="body" x="148" y="345">依据相对趋势</text>
+    <text class="body" x="148" y="371">与相对动能</text>
+    <text class="body" x="148" y="397">选择领先行业</text>
+    <text class="t muted body" x="148" y="426">最多 6 个行业</text>
+
+    <rect x="355" y="270" width="188" height="174" rx="16" fill="#eef4fb" stroke="#d7e1ea"/>
+    <text class="cardtitle" x="449" y="310">C · 扩散 + RRG</text>
+    <text class="body" x="449" y="345">先按个股扩散排序</text>
+    <text class="body" x="449" y="371">再保留领先或</text>
+    <text class="body" x="449" y="397">改善象限的行业</text>
+    <text class="t muted body" x="449" y="426">前 6 个候选</text>
+
+    <rect x="657" y="270" width="188" height="174" rx="16" fill="#eef4fb" stroke="#d7e1ea"/>
+    <text class="cardtitle" x="751" y="310">M · 行业动量</text>
+    <text class="body" x="751" y="345">比较过去</text>
+    <text class="body" x="751" y="371">220 个交易日的</text>
+    <text class="body" x="751" y="397">行业累计收益</text>
+    <text class="t muted body" x="751" y="426">前 6 个行业</text>
+
+    <rect x="958" y="270" width="188" height="174" rx="16" fill="#f2f4f7" stroke="#d7e1ea"/>
+    <text class="cardtitle" x="1052" y="310">E · ETF 等权</text>
+    <text class="body" x="1052" y="345">把资金平均分配给</text>
+    <text class="body" x="1052" y="371">当期可交易的</text>
+    <text class="body" x="1052" y="397">ETF 集合</text>
+    <text class="t muted body" x="1052" y="426">直接基准</text>
+  </g>
+
+  <path class="line" d="M148 444 V476 H751 V500 M449 444 V500 M751 444 V500"/>
+  <rect x="220" y="500" width="662" height="104" rx="18" fill="#edf3f9" stroke="#d7e1ea"/>
+  <text class="t step" x="551" y="540" text-anchor="middle">2 · 将入选行业映射为 ETF 组合</text>
+  <text class="t muted body" x="551" y="571" text-anchor="middle">依据披露持仓估算行业暴露，并通过约束优化确定组合权重</text>
+
+  <path class="line" d="M551 604 V655 H600" marker-end="url(#arrow)"/>
+  <path class="line" d="M1052 444 V655 H914" marker-end="url(#arrow)"/>
+
+  <rect x="236" y="655" width="728" height="96" rx="18" fill="#edf3f9" stroke="#d7e1ea"/>
+  <text class="t step" x="600" y="694" text-anchor="middle">3 · 下一交易日开盘调仓</text>
+  <text class="t muted body" x="600" y="724" text-anchor="middle">先卖出原持仓，再按目标权重买入 · 买卖各计 3bp</text>
+
+  <path class="line" d="M600 751 V786" marker-end="url(#arrow)"/>
+  <rect x="312" y="786" width="576" height="72" rx="18" fill="#ffffff" stroke="#c8d5e1"/>
+  <text class="t step" x="600" y="819" text-anchor="middle">4 · 持有至下一个月末</text>
+  <text class="t muted body" x="600" y="845" text-anchor="middle">分别记录 Q / C / M / E 的收益、风险、换手率与回撤</text>
+</svg>
