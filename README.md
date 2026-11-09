@@ -1,5 +1,7 @@
 # RRG 行业与 ETF 轮动研究
 
+[English](https://github.com/skyexry/rrg-etf-rotation/tree/main)
+
 本仓库复现西部证券《相对旋转图 RRG 框架下的行业和 ETF 轮动策略》，并在统一数据、交易费用和执行规则下比较四种策略：
 
 - 纯 RRG 第一象限 ETF 策略
