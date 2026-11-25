@@ -1,6 +1,14 @@
 # RRG Sector and ETF Rotation
 
-[中文版本](https://github.com/skyexry/rrg-etf-rotation/tree/zh-CN)
+**[English report](reports/english/RRG_Report.pdf)** · [Experiment summary](results/EXPERIMENT_SUMMARY.md) · [Technical appendix](reports/english/RRG_Technical_Appendix.pdf) · [中文版本](https://github.com/skyexry/rrg-etf-rotation/tree/zh-CN)
+
+**Research question.** Can sector rotation based on the Relative Rotation Graph (RRG) improve net ETF returns over conventional sector momentum? The study extends a published framework and compares four strategies under shared execution and transaction-cost assumptions.
+
+**Main finding.** In the 2018–2026 historical backtest, the pure RRG strategy led sector momentum by **2.79 percentage points in annualized net return**. The monthly return difference had a HAC p-value of **0.468**, leaving the persistence of the advantage uncertain.
+
+![Net asset value comparison](results/02_figures/01_net_nav.png)
+
+## Strategies compared
 
 This repository reconstructs the sector and ETF rotation framework from Western Securities' *Sector and ETF Rotation under the Relative Rotation Graph (RRG) Framework*. It evaluates four strategies under a common data set, trading-cost model, and execution convention:
 
@@ -31,8 +39,6 @@ The sample runs from December 28, 2018 to March 31, 2026. The main specification
 | Breadth + RRG | 18.95% | 27.02% | 0.778 | **-38.40%** |
 | Industry Momentum | 21.83% | 25.92% | 0.892 | -46.19% |
 | ETF Equal Weight | 10.12% | **19.68%** | 0.588 | -38.78% |
-
-![Net asset value comparison](results/02_figures/01_net_nav.png)
 
 The pure leading-quadrant strategy has the highest historical annualized return and Sharpe ratio in the main specification. Relative to industry momentum, it adds 2.79 percentage points of annualized return, has slightly higher volatility, and improves maximum drawdown by about 1.44 percentage points. CNY 10 million grows to CNY 46.36 million, versus CNY 39.58 million for momentum. Its monthly mean-return difference relative to momentum has `p ≈ 0.468`, so the historical economic advantage and evidence of a persistent incremental return are reported separately. The main 220-day/six-industry setting is also the best pure-RRG result within the tested parameter grid.
 
